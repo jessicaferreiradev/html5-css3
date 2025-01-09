@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColGroup</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+        table{
+            border-collapse: collapse;
+            text-align: justify;
+            width: 500px;
+        }
+        th, td {
+            border: 2px solid pink;
+            padding: 10px;
+        }
+        col.cnome{
+            background-color: peachpuff;
+        }
+        col.cgrupo{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Agrupando tabelas usando Colgroup</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Juliano</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Mecânico</td>
+        </tr>
+        <tr>
+            <td>Vitória</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Psicólogo</td>
+        </tr>
+        <tr>
+            <td>Beyoncé</td>
+            <td>F</td>
+            <td>43</td>
+            <td>Cantora</td>
+        </tr>
+        <tr>
+            <td>Messi</td>
+            <td>M</td>
+            <td>37</td>
+            <td>Futebolista</td>
+        </tr>
+    </table>
+</body>
+</html>
