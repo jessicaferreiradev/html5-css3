@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando conteúdos</title>
+    <style>
+        body{
+            background-color: thistle;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: purple;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        div{
+            background-color: whitesmoke;
+            width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+        }
+        iframe{
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Conteúdos dentro de iframes</h1>
+    </header>
+    <div>
+        <h2>Vídeo do Youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dzhJsc1YszU?si=KkR0AF8gbRQMhn67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <h2>Mapa do Google</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61141.320815052706!2d-49.23700769999997!3d-16.710250899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935eefe7d8858de7%3A0xe6292e91f0add220!2sAut%C3%B3dromo%20Internacional%20de%20Goi%C3%A2nia%20Ayrton%20Senna!5e0!3m2!1spt-BR!2sbr!4v1740057573750!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2>Mapa do Waze</h2>
+        <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-16.707704&lon=-49.273035&ct=livemap" width="600" height="450" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
